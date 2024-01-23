@@ -27,7 +27,3 @@ class Test_Home(BaseTest):
         self.loginPage = LoginPage(self.driver)
         homePage = self.loginPage.do_login(TestData.USER_NAME, TestData.PASSWORD)
         assert homePage.is_settings_icon_exist()
-
-
-
-

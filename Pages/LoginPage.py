@@ -5,7 +5,6 @@ from Pages.HomePage import HomePage
 
 class LoginPage(BasePage):
 
-
     EMAIL = (By.ID, "username")
     PASSWORD = (By.ID, "password")
     LOGIN_BTN = (By.ID, "loginBtn")
